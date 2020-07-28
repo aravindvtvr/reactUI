@@ -7,6 +7,7 @@ import List from './components/List';
 import ServiceStat from './components/ServiceStat';
 import ServiceChart from './components/SampleChart';
 import MaterialTableDemo from './components/MaterialTableDemo';
+import ConsumerInventory from './components/ConsumerInventory';
 import {Route, BrowserRouter} from 'react-router-dom';
 import SampleChart from './components/SampleChart';
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
 				 <Route path="/start" component={Hello}/>												
 				 <Route path="/admin" component={Admin}/>
 				 <Route path="/servicerepo" component={MaterialTableDemo}/>
+				 <Route path="/consumerinv" component={ConsumerInventory}/>
 				 <Route path="/servicestats" component={ServiceStat}/>
 				 <Route path="/samplechart" component={SampleChart}/>
 				 

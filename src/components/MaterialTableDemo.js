@@ -8,6 +8,7 @@ export default function MaterialTableDemo() {
   const columnsnew = [
     { title: 'Service', field: 'Service' },
     { title: 'Operation', field: 'Operation' },
+    { title: 'Consumer App', field: 'Application' },
     { title: 'protocol', field: 'protocol'},
     { title: 'Backend', field: 'Backend'},
     { title: 'Version', field: 'Version'}

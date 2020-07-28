@@ -20,7 +20,7 @@ function NavBar() {
       <Link className="navbar-brand"  style = {newStyle} to="/servicerepo">
         Service Repository
       </Link>
-      <Link className="navbar-brand" style = {newStyle} to="/">
+      <Link className="navbar-brand" style = {newStyle} to="/consumerinv">
         Consumer Inventory
       </Link>
       <Link className="navbar-brand"  style = {newStyle} to="/">
